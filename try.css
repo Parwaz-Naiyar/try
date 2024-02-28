@@ -1,0 +1,191 @@
+
+a:hover{
+    text-decoration: none;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+@media screen and (max-width:768px)  {
+    .comp-name{
+        text-align: center;
+        font-size: 35px
+    };
+    .comp-list{
+        text-align: center;
+        margin-left: -100px;
+        background-color: aqua;
+    }
+}
+.section h2.section-head:after{
+background: #e74c3c;
+content: '';
+display: block;
+width: 100PX;
+height: 3PX;
+margin: 20PX auto;
+}
+#header{
+    color: #fff;
+    background: #e74c3c;
+    
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+#menu li{
+    display: inline-block;
+    
+}
+#menu li a{
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+
+}
+#menu li a:hover{
+    background: #c0392b;
+
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#banner{
+    background: url('./go.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+.banner-tittle{
+    padding-top: 5rem;
+}
+.banner-tittle h1{
+    display: inline-block;
+    background: rgba(255,255,255,0.8);
+    padding: 10px;
+    margin: 0;
+}
+.banner-tittle p.lead{
+    background-color: rgba(231,76,60,0.7);
+    padding: 10px;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i.fa{
+    color: #e74c3c;
+    font-size: 3rem;
+}
+.testimonial{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("./forest.jpg") no-repeat 0 0 ;
+    background-size: cover;
+}
+#testimonial{
+    text-align: center;
+    font-size: 2rem;
+    margin: 40px 0;
+    color:#fff;
+}
+#testimonial::after{
+    background: #e74c3c;
+content: '';
+display: block;
+width: 100PX;
+height: 3PX;
+margin: 20PX auto;
+}
+.t-zone p{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.t-zone img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+}
+.texture{
+    margin-left: -40px;
+}
+.t-zone h4, .t-zone h5{
+    margin-left: 45px;
+}
+.tra{
+    text-align: center;
+    margin: 40px 0;
+}
+.
+.card{
+ margin-bottom: 50px;
+    
+}
+.card-zone{
+   /* margin: 10px; */
+   border: 10px solid rgba(128, 128, 128, 0.77);
+   border-style: groove;
+   /* margin-bottom: 10px; */
+}
+.card-zone h3{
+    text-align: center;
+    font-weight: bold;
+}
+.card-zone p{
+    padding: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.travel{
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-around;
+   
+    
+}
+.card img{
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+.travel-heading{
+    margin: 80px 0 10px 0;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 2px blue;
+    color:transparent;
+    -webkit-text-fill-color:aqua;
+;
+
+    
+}
+video{
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+.div{
+    background-image: url(./v.jpg);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+
+
+}
+.g{
+    font-size: 200px;
+}
